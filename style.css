@@ -70,3 +70,9 @@ img {
 #roll:hover {
     background-color: #0fa4af;
 }
+
+@media (max-width: 434px ) {
+    .divList {
+        width: 90%;
+    }
+}
