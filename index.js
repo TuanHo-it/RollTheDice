@@ -14,7 +14,7 @@ roll.addEventListener('click', () => {
         let rd = Math.floor(Math.random() * 6) + 1;
         numOnDice = rd;
         setTimeout(() => {
-            dices.src = `/imgs/dice${rd}.png`;
+            dices.src = `imgs/dice${rd}.png`;
         }, 500 * i)
 
     }
