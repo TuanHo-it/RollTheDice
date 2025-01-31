@@ -25,7 +25,7 @@ roll.addEventListener('click', () => {
         const diceImg = document.createElement('img');
         divList.className = "divList";
         diceImg.className = "diceImg";
-        diceImg.src = `/imgs/dice${numOnDice}.png`;
+        diceImg.src = `imgs/dice${numOnDice}.png`;
         divList.textContent = `Roll ${dem}:` ;
         container.appendChild(divList);
         divList.appendChild(diceImg);
